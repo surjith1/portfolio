@@ -59,6 +59,12 @@
   }
 
   .links {
-    align-items: center;
+    align-items: flex-start;
+  }
+  .link a {
+    font-size: 19px;
+  }
+  .link i {
+    font-size: 1.5rem;
   }
 }

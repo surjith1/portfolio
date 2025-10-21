@@ -17,11 +17,6 @@
   color: var(--color-text);
 }
 
-
-.menuBtn {
-  display: none;
-}
-
 .menu {
   display: flex;
 }
@@ -36,6 +31,17 @@
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+}
+.menuIcon {
+  color: var(--color-text);
+  display: none;
+  cursor: pointer;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 100%;
 }
 
 @media screen and (max-width: 830px) {
@@ -52,11 +58,6 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
-  }
-
-  .menuBtn {
-    display: block;
-    cursor: pointer;
   }
 
   .menuItems {
@@ -78,5 +79,9 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+  
+  .menuIcon {
+    display: block;
   }
 }
