@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.brand}>
         <a className={styles.title} href="/">
-          Portfolio
+          Surjith
         </a>
         <i
           className={`fa-solid fa-bars fa-2xl ${styles.menuIcon}`}
