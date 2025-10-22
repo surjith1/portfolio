@@ -3,8 +3,10 @@
 .container {
   color: var(--color-text);
   margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .title {
@@ -13,51 +15,24 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin-top: 14px;
-}
-
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-/* .skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-} */
-/* 
-.skillImageContainer img {
-  width: 75px;
-} */
-
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px; 
+  box-sizing: border-box;
 }
 
 .history {
-  width: 45%;
+  width: 100%; 
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -69,9 +44,11 @@
   align-items: center;
   gap: 17px;
   background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, rgba(7, 61, 162, 0.6) 0%, rgb(71, 71, 71) 100%);
   border-radius: 10px;
   padding: 24px;
+  width: 100%; 
+  box-sizing: border-box;
 }
 
 .historyItem img {
@@ -80,24 +57,28 @@
 
 .historyItemDetails {
   font-family: var(--font-roboto);
+  flex: 1; 
 }
 
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
+  margin: 0 0 8px 0;
 }
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  margin: 0 0 12px 0;
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
+  margin: 0;
+  margin-left: 20px;
   list-style-position: inside;
   font-size: 25px;
   list-style-type: disc;
-  margin-left: 17px;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 830px) {
@@ -107,14 +88,25 @@
     gap: 34px;
   }
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
-
   .history {
     width: 100%;
-    gap: 9px;
+    gap: 20px;
+  }
+
+  .historyItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 24px;
+  }
+
+  .historyItemDetails p {
+    font-size: 18px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 20px;
   }
 }

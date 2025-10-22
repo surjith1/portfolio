@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}><i class="fa-solid fa-message"></i> About</h2>
       <br /> <br />
       <div className={styles.content}>
         <ul className={styles.aboutItems}>

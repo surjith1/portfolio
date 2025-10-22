@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "E-Learn",
+     "imageSrc": "projects/project.png",
+    "description": "A full-featured LMS built with the MERN stack. It allows users to enroll in courses, track progress, and access educational content in an interactive way.",
+    "skills": ["React", "Express", "Node", "MongoDb"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/surjith1/mern-lms"
   },
   {
-    "title": "Project B",
+    "title": "Project Share",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "A platform where developers can showcase and share their projects. Users can upload project details, view others’ work, and explore a growing collection of tech projects.",
+    "skills": ["React", "Express", "Node", "MongoDb"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/surjith1/project-vault"
   },
   {
-    "title": "Project C",
+    "title": "E-Commerce",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "A complete e-commerce web application supporting product listings, cart management, secure checkout, and order tracking built using the MERN stack.",
+    "skills": ["React", "Express", "Node", "MongoDb"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/surjith1/ecommerce"
   }
 ]
